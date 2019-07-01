@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+    <servlet>
+        <servlet-name>Servlet_Articulo</servlet-name>
+        <servlet-class>Servlet.Servlet_Articulo</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Servlet_Carrito</servlet-name>
+        <servlet-class>Servlet.Servlet_Carrito</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Servlet_Cliente</servlet-name>
+        <servlet-class>Servlet.Servlet_Cliente</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Servlet_DetalleOrden</servlet-name>
+        <servlet-class>Servlet.Servlet_DetalleOrden</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Servlet_OrdenVenta</servlet-name>
+        <servlet-class>Servlet.Servlet_OrdenVenta</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Servlet_Usu</servlet-name>
+        <servlet-class>Servlet.Servlet_Usu</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Servlet_Articulo</servlet-name>
+        <url-pattern>/Servlet_Articulo</url-pattern>
+    </servlet-mapping>
+   
+    <servlet-mapping>
+        <servlet-name>Servlet_Carrito</servlet-name>
+        <url-pattern>/Servlet_Carrito</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Servlet_Cliente</servlet-name>
+        <url-pattern>/Servlet_Cliente</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Servlet_DetalleOrden</servlet-name>
+        <url-pattern>/Servlet_DetalleOrden</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Servlet_OrdenVenta</servlet-name>
+        <url-pattern>/Servlet_OrdenVenta</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Servlet_Usu</servlet-name>
+        <url-pattern>/Servlet_Usu</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>
